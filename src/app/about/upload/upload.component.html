@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Form Upload</h4>
+            <div class="form__container">
+                <form [formGroup]='myForm' (ngSubmit)='uploaformSubmit()'>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="file" matInput formControlName="file"  (change)='fileUpload($event)' >
+                        </div>
+                        <div class="col-md-6">
+                            <button mat-flat-button color="primary">Primary</button>
+                        </div>
+                    </div>
+                    <span class="text-danger" *ngIf='imgType'>Please choose correct image File (JPEG/PNG)</span>
+                    <span class="text-danger" *ngIf='imgSize'>Please choose image Lessthan 2MB</span>
+                        <!-- <img [src]="imageSrc" *ngIf="imageSrc" style="height: 300px; width:500px">   -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

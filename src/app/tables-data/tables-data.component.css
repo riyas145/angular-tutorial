@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.table .pagination {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+.table nav.ng2-smart-pagination-nav {width: 100%; margin-top: 10px !important;}
+.table .pagination li {
+    padding: 4px !important;
+}
+.table {
+    margin: 50px 0 !important;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+
+div#header {
+    background: #3498db;
+    color: #ffffff;
+    padding: 40px;
+}
+#header h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+#header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 10px ;
+    line-height: 23px;
+}
+div#table__container {margin-top: 40px;}
+footer#footer {
+    padding: 30px;
+    background: #3498db;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.left-container h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #8e44ad;
+    padding: 10px 0;
+}
+.left-container table {width: 100%;font-family: 'Montserrat', sans-serif;}
+
+.left-container .uerinfo_table th.mat-header-cell {
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+    background: #95a5a6;
+    color: #ffffff;
+}
+.mat-sort-header-arrow .mat-sort-header-indicator{ color: #ffffff !important;}
+.full-table table {width: 100%;}
+div#full__table {margin: 80px 30px;}
+div#full__table .fulltable th.mat-header-cell {
+  background: #ecf0f1;
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.table_content {
+    margin: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+}

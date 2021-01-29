@@ -1,0 +1,33 @@
+<div id="header">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h4>Table Sorting</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptate nulla doloribus porro illo molestiae labore vel hic enim iure ipsam magnam libero, dolorem aliquam consequuntur ducimus quia quam ad!</p>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 table_content">
+      <table   datatable  [dtOptions]="dtOptions" [dtTrigger]="triggerTwo" class="row-border hover"></table>
+      <a href="javascript:void(0);" class="test-table btn btn-primary" (click)="resetTable(1);">rest table</a>
+    </div>
+    <div class="col-md-6 table_content">
+      <!-- <h1>Right Tables</h1> -->
+        <table datatable [dtOptions]="dtOptions"  [dtTrigger]="triggerOne" class="row-border hover"></table>
+        <a href="javascript:void(0);" class="test-table btn btn-primary" (click)="resetTable(2);">rest table</a>
+    </div>
+  </div>
+</div>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p> &copy; Copyright 2021, All Rights Reserved  </p>
+            </div>
+        </div>
+    </div>
+</footer>
